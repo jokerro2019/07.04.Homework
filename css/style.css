@@ -18,7 +18,15 @@ body {
     /* width: 1142px; */
 }
 
+.grid {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
 .flex__item {
+    display: flex;
+    justify-content: center;
     width: 363px;
     background-color: #ffffff;
     padding: 40px 0;
